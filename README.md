@@ -11,6 +11,8 @@ A interface travada durante uma operação demorada é o inimigo silencioso de q
 
 Baseado em 30 anos de experiência em arquitetura de software, esta obra foi projetada para ser um curso de formação completo, tanto para o programador que está dando seus primeiros passos em *threads* quanto para o arquiteto que busca otimizar a performance em cenários de alta demanda. Ao final desta jornada, você terá a confiança e a visão arquitetural para projetar e construir aplicações Delphi que não apenas funcionam, mas que encantam o usuário com sua performance e responsividade.
 
+![Delphi Multithreading - Book Cover](./cover.jpg)
+
 ## 🛒 Onde Comprar
 
 O livro está disponível em formato impresso em diversas lojas ao redor do mundo.
