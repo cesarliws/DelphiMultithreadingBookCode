@@ -1,5 +1,8 @@
 # Delphi Multithreading: Threads, Concorrência, Paralelismo e Assincronismo - Código-Fonte Oficial
 
+> **English Edition: Coming Soon\!**
+> A versão em inglês deste livro já está em produção. Fique atento para futuras atualizações sobre o lançamento\!
+
 Este repositório contém todo o código-fonte dos exemplos práticos do livro **"Delphi Multithreading: Threads, Concorrência, Paralelismo e Assincronismo"**, escrito por Cesar Romero.
 
 ## 📖 Sobre o Livro
@@ -20,9 +23,19 @@ O livro está disponível em formato impresso em diversas lojas ao redor do mund
 | :--- | :--- |
 | **🇧🇷 Clube de Autores (Brasil)** | **[https://clubedeautores.com.br/livro/delphi-multithreading](https://clubedeautores.com.br/livro/delphi-multithreading)** |
 | 🇺🇸 Amazon.com (USA) | [https://www.amazon.com/dp/6501752515](https://www.amazon.com/dp/6501752515) |
+| 🇨🇦 Amazon.ca (Canadá) | [https://www.amazon.ca/dp/6501752515](https://www.amazon.ca/dp/6501752515) |
+| 🇬🇧 Amazon.co.uk (Reino Unido) | [https://www.amazon.co.uk/dp/6501752515](https://www.amazon.co.uk/dp/6501752515) |
+| 🇩🇪 Amazon.de (Alemanha) | [https://www.amazon.de/dp/6501752515](https://www.amazon.de/dp/6501752515) |
+| 🇫🇷 Amazon.fr (França) | [https://www.amazon.fr/dp/6501752515](https://www.amazon.fr/dp/6501752515) |
 | 🇪🇸 Amazon.es (Espanha) | [https://www.amazon.es/dp/6501752515](https://www.amazon.es/dp/6501752515) |
+| 🇮🇹 Amazon.it (Itália) | [https://www.amazon.it/dp/6501752515](https://www.amazon.it/dp/6501752515) |
+| 🇳🇱 Amazon.nl (Holanda) | [https://www.amazon.nl/dp/6501752515](https://www.amazon.nl/dp/6501752515) |
+| 🇵🇱 Amazon.pl (Polônia) | [https://www.amazon.pl/dp/6501752515](https://www.amazon.pl/dp/6501752515) |
+| 🇧🇪 Amazon.com.be (Bélgica) | [https://www.amazon.com.be/dp/6501752515](https://www.amazon.com.be/dp/6501752515) |
+| 🇮🇪 Amazon.ie (Irlanda) | [https://www.amazon.ie/dp/6501752515](https://www.amazon.ie/dp/6501752515) |
+| 🇦🇺 Amazon.com.au (Austrália) | [https://www.amazon.com.au/dp/6501752515](https://www.amazon.com.au/dp/6501752515) |
 
-O livro também é distribuído pelo Clube de Autores para: **Alemanha, Austrália, Canadá, Equador, México, Nova Zelândia e Portugal**.
+O livro também é distribuído pelo Clube de Autores para: **Equador, México, Nova Zelândia e Portugal**.
 
 -----
 
