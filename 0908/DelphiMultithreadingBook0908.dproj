@@ -5,10 +5,11 @@
         <FrameworkType>FMX</FrameworkType>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
-        <Platform Condition="'$(Platform)'==''">Android64</Platform>
-        <TargetedPlatforms>32771</TargetedPlatforms>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>3</TargetedPlatforms>
         <AppType>Application</AppType>
         <MainSource>DelphiMultithreadingBook0908.dpr</MainSource>
+        <ProjectName Condition="'$(ProjectName)'==''">DelphiMultithreadingBook0908</ProjectName>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
         <Base>true</Base>
@@ -36,12 +37,6 @@
     <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
         <Cfg_1>true</Cfg_1>
         <CfgParent>Base</CfgParent>
-        <Base>true</Base>
-    </PropertyGroup>
-    <PropertyGroup Condition="('$(Platform)'=='Android64' and '$(Cfg_1)'=='true') or '$(Cfg_1_Android64)'!=''">
-        <Cfg_1_Android64>true</Cfg_1_Android64>
-        <CfgParent>Cfg_1</CfgParent>
-        <Cfg_1>true</Cfg_1>
         <Base>true</Base>
     </PropertyGroup>
     <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
@@ -167,14 +162,6 @@
         <DCC_RemoteDebug>true</DCC_RemoteDebug>
         <DCC_IntegerOverflowCheck>true</DCC_IntegerOverflowCheck>
         <DCC_RangeChecking>true</DCC_RangeChecking>
-    </PropertyGroup>
-    <PropertyGroup Condition="'$(Cfg_1_Android64)'!=''">
-        <AUP_READ_HOME_APP_SEARCH_DATA>true</AUP_READ_HOME_APP_SEARCH_DATA>
-        <VerInfo_Build>1</VerInfo_Build>
-        <Android_BackgroundColor>#FFFFFF</Android_BackgroundColor>
-        <Android_DarkBackgroundColor>#000000</Android_DarkBackgroundColor>
-        <Android_NotificationAccentColor>#000000</Android_NotificationAccentColor>
-        <DCC_RangeChecking>false</DCC_RangeChecking>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
         <DCC_RemoteDebug>false</DCC_RemoteDebug>
@@ -1362,7 +1349,7 @@
             </Deployment>
             <Platforms>
                 <Platform value="Android">False</Platform>
-                <Platform value="Android64">True</Platform>
+                <Platform value="Android64">False</Platform>
                 <Platform value="Win32">True</Platform>
                 <Platform value="Win64">True</Platform>
             </Platforms>

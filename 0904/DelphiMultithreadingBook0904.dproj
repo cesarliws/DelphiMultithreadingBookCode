@@ -5,10 +5,11 @@
         <FrameworkType>FMX</FrameworkType>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
-        <Platform Condition="'$(Platform)'==''">Android64</Platform>
-        <TargetedPlatforms>32771</TargetedPlatforms>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>3</TargetedPlatforms>
         <AppType>Application</AppType>
         <MainSource>DelphiMultithreadingBook0904.dpr</MainSource>
+        <ProjectName Condition="'$(ProjectName)'==''">DelphiMultithreadingBook0904</ProjectName>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
         <Base>true</Base>
@@ -1342,7 +1343,7 @@
             </Deployment>
             <Platforms>
                 <Platform value="Android">False</Platform>
-                <Platform value="Android64">True</Platform>
+                <Platform value="Android64">False</Platform>
                 <Platform value="Win32">True</Platform>
                 <Platform value="Win64">True</Platform>
             </Platforms>
