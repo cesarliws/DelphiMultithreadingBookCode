@@ -33,8 +33,6 @@ var
 begin
   // Adiciona tracing para o método, útil para depurar fluxo
   CodeSite.TraceMethod('TLoggingThread.Execute', tmoTiming);
-
-  // Logar ID e nome da thread
   CodeSite.Send('Thread de Trabalho: Iniciada.');
   try
     for i := 1 to 5 do
