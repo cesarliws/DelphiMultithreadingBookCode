@@ -83,12 +83,16 @@ begin
 end;
 
 procedure TWorkerThread.CallbackLogWrite(const Text: string);
+var
+  Callback: TLogWriteCallback;
 begin
   DebugLogWrite(Text);
 
   // Envia log para a UI se foi passado o callback para notificar
   if Assigned(FLogWriteCallback) then
   begin
+    // Define o callback para uma variável local para ser capturada pelo método closure da fila
+    Callback := FLogWriteCallback;
     // Usamos TThread.Queue para atualizar a UI sem bloquear o processamento
     TThread.Queue(nil,
       procedure
